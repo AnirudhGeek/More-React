@@ -1,5 +1,5 @@
 function ButtonComponent(){
-    return <button>Click</button>
+    return <button className="border px-3 py-1 mx-2">Click</button>
 }
 
 function ProductItem(){

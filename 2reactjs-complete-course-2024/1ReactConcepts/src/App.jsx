@@ -7,9 +7,9 @@ const App = () => {
   return (
     <div>
       <h1>React Js Concepts</h1>
-      <ClassBasedComponent />
+      {/* <ClassBasedComponent /> */}
       {/* <FunctionalComponent/> */}
-      {/* <ProductList name="Anirudh" city="ABC"/> */}
+      <ProductList name="Anirudh" city="ABC"/>
     </div>
   );
 };
