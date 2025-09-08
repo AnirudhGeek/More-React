@@ -6,6 +6,7 @@ import { Users } from "./components/users";
 import ContextButtonComponent from "./components/context-concept/button";
 import ContextTextComponent from "./components/context-concept/text";
 import ToggleFromFunction from "./components/context-concept/button2";
+import UseReducerExample from "./components/useReducer-Example";
 
 const App = () => {
   return (
@@ -15,9 +16,11 @@ const App = () => {
       {/* <FunctionalComponent/> */}
       {/* <ProductList name="Anirudh" city="ABC"/> */}
       {/* <Users/> */}
-      <ContextButtonComponent/>
+      {/* <ContextButtonComponent/>
       <ContextTextComponent/>  
-      <ToggleFromFunction/>
+      <ToggleFromFunction/> */}
+
+      <UseReducerExample/>  
     </div>
   );
 };
