@@ -7,6 +7,7 @@ import ContextButtonComponent from "./components/context-concept/button";
 import ContextTextComponent from "./components/context-concept/text";
 import ToggleFromFunction from "./components/context-concept/button2";
 import UseReducerExample from "./components/useReducer-Example";
+import FormComponent from "./components/form";
 
 const App = () => {
   return (
@@ -20,7 +21,9 @@ const App = () => {
       <ContextTextComponent/>  
       <ToggleFromFunction/> */}
 
-      <UseReducerExample/>  
+      {/* <UseReducerExample/>   */}
+
+      <FormComponent/>
     </div>
   );
 };
