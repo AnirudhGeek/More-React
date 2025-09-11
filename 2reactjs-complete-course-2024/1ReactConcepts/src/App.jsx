@@ -8,10 +8,12 @@ import ContextTextComponent from "./components/context-concept/text";
 import ToggleFromFunction from "./components/context-concept/button2";
 import UseReducerExample from "./components/useReducer-Example";
 import FormComponent from "./components/form";
+import LoginComponent from "./components/login";
+import RegisterComponent from "./components/register";
 
 const App = () => {
   return (
-    <div>
+    <div className="text-4xl font-medium flex flex-col items-center justify-center gap-5">
       <h1>React Js Concepts</h1>
       {/* <ClassBasedComponent /> */}
       {/* <FunctionalComponent/> */}
@@ -23,7 +25,12 @@ const App = () => {
 
       {/* <UseReducerExample/>   */}
 
-      <FormComponent/>
+      {/* <FormComponent/> */}
+
+      <div className="flex gap-20 text-4xl font-medium">
+        <LoginComponent/>
+        <RegisterComponent/>
+      </div>
 
     </div>
   );
