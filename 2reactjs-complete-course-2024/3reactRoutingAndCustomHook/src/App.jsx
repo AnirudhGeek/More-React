@@ -42,7 +42,7 @@ const App = () => {
 
       <div>
         <Link
-          to={"/recipe-list"}
+          to={"/home/recipe-list"}
           className="m-4 text-blue-500 text-2xl font-medium"
         >
           Alternative way of navigating to recipe list page
@@ -50,13 +50,13 @@ const App = () => {
       </div>
 
       <button
-        onClick={() => navigate("/recipe-list")}
+        onClick={() => navigate("/home/recipe-list")}
         className="border bg-black text-white px-2 py-1 rounded cursor-pointer"
       >
         Navigate to Recipe list page
       </button>
       <button
-        onClick={() => navigate("/comments-list")}
+        onClick={() => navigate("/home/comments-list")}
         className="border bg-black text-white px-2 py-1 rounded cursor-pointer"
       >
         Navigate to Comments list page
@@ -73,7 +73,7 @@ const App = () => {
       </Routes>
 
       {/* Custom routes made by useRoutes */}
-      <CurstomRoutes />
+      {/* <CurstomRoutes /> */}
     </div>
   );
 };

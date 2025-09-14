@@ -6,7 +6,13 @@ const formTypes = {
   TEXTAREA: "text",
 };
 
-function CommonForm({ formControls = [], formData, setFormData,buttonText,onHandleSubmit }) {
+function CommonForm({
+  formControls = [],
+  formData,
+  setFormData,
+  buttonText,
+  onHandleSubmit,
+}) {
   function renderFormElement(getCurrentElement) {
     let content = null;
 
@@ -17,7 +23,6 @@ function CommonForm({ formControls = [], formData, setFormData,buttonText,onHand
             label={getCurrentElement.label}
             name={getCurrentElement.name}
             id={getCurrentElement.id}
-            type={getCurrentElement.type}
             placeholder={getCurrentElement.placeholder}
             value={formData[getCurrentElement.name]}
             onChange={(event) =>
@@ -60,12 +65,9 @@ function CommonForm({ formControls = [], formData, setFormData,buttonText,onHand
           )
         : null}
 
-        <div className="mt-5">
-            <button className="border">
-                {buttonText || "Submit"}
-            </button>
-
-        </div>
+      <div className="mt-5">
+        <button className="border">{buttonText || "Submit"}</button>
+      </div>
     </form>
   );
 }

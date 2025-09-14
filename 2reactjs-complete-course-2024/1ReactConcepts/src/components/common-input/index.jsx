@@ -4,7 +4,7 @@ function CommonInput({ label, onChange, name, id, placeholder, value ,type}) {
   return (
     <div>
       <label htmlFor={name}>{label}</label>
-      <input
+      <input  className="border"
         type={type || "text"}
         name={name}
         id={id}
