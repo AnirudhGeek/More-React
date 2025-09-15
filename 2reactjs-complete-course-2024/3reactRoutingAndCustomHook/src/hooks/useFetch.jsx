@@ -37,4 +37,6 @@ function useFetch(url, options = {}) {
   }
 }
 
+//practiced more useFetch custom hook
+
 export default useFetch;
