@@ -39,4 +39,6 @@ function useFetch(url, options = {}) {
 
 //practiced more useFetch custom hook
 
+// power cut in my area😭
+
 export default useFetch;
