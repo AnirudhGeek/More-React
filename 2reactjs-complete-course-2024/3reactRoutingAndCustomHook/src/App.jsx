@@ -5,6 +5,7 @@ import CommentList from "./pages/comments";
 import RecipeDetailsPage from "./pages/recipe-details";
 import NotFoundPage from "./pages/not-found";
 import Layout from "./components/layout";
+import ReactHookFormExamplePage from "./react-hook-form";
 
 function CurstomRoutes() {
   const element = useRoutes([
@@ -38,7 +39,7 @@ const App = () => {
   const navigate = useNavigate();
   return (
     <div>
-      <h1>React routing, Custom hooks and more</h1>
+      {/* <h1>React routing, Custom hooks and more</h1>
 
       <div>
         <Link
@@ -60,7 +61,7 @@ const App = () => {
         className="border bg-black text-white px-2 py-1 rounded cursor-pointer"
       >
         Navigate to Comments list page
-      </button>
+      </button> */}
       <Routes>
         <Route path="/home" element={<Layout />}>
           <Route path="recipe-list" element={<ReceipeList />} />
@@ -70,6 +71,7 @@ const App = () => {
         </Route>
         {/* Logic for not found page */}
         <Route path="*" element={<NotFoundPage />} />
+        <Route path='/react-hook-form' element={<ReactHookFormExamplePage/>}/>
       </Routes>
 
       {/* Custom routes made by useRoutes */}
