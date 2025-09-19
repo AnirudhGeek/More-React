@@ -7,6 +7,8 @@ import NotFoundPage from "./pages/not-found";
 import Layout from "./components/layout";
 import ReactHookFormExamplePage from "./react-hook-form";
 import Hooks from "./pages/hooks";
+import UseMemoExample from "./pages/hooks/UseMemoExample";
+import UseCallbackExample from "./pages/hooks/use-callback-hook";
 
 function CurstomRoutes() {
   const element = useRoutes([
@@ -74,6 +76,8 @@ const App = () => {
         <Route path="*" element={<NotFoundPage />} />
         <Route path='/react-hook-form' element={<ReactHookFormExamplePage/>}/>
         <Route path="/hooks" element={<Hooks/>}/>
+        <Route path="/memo" element={<UseMemoExample/>}/>
+        <Route path="/useCallback" element={<UseCallbackExample/>}/>
       </Routes>
 
       {/* Custom routes made by useRoutes */}
