@@ -82,6 +82,8 @@ const App = () => {
 
       {/* Custom routes made by useRoutes */}
       {/* <CurstomRoutes /> */}
+
+      {/* Revised all hooks */}
     </div>
   );
 };
