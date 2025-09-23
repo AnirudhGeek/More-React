@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return <header>
-    <div >
+    <div className="bg-gray-800 text-white">
         <NavLink  to={'/'}>ReactQuery</NavLink>
         <ul className="flex items-center justify-center gap-10">
             <li>

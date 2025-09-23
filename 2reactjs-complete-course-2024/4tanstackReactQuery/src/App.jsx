@@ -37,6 +37,6 @@ const App = () => {
       <RouterProvider router={router}></RouterProvider>;
     </QueryClientProvider>
   );
-};
+}; 
 
 export default App;
