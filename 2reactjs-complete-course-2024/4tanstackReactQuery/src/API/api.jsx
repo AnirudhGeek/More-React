@@ -19,3 +19,8 @@ export const fetchInvPost =async (id) =>{
     console.log(error)
   }
 }
+
+//to delete post 
+export const deletePost = async(id)=>{
+  return await axios.delete(`https://dummyjson.com/posts/${id}`)
+}
