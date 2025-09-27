@@ -24,3 +24,8 @@ export const fetchInvPost =async (id) =>{
 export const deletePost = async(id)=>{
   return await axios.delete(`https://dummyjson.com/posts/${id}`)
 }
+
+//to update the post
+export const updatePost = async(id)=>{
+  return await axios.patch(`https://dummyjson.com/posts/${id}`,{title : "I have updated"})
+}
