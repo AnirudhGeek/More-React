@@ -106,6 +106,8 @@ return (
   </div>
 );
 
+//revised old concepts
+
 };
 
 export default FetchRQ;
