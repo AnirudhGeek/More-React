@@ -74,4 +74,6 @@ const InfiniteScroll = () => {
   );
 };
 
+//college work
+
 export default InfiniteScroll;
