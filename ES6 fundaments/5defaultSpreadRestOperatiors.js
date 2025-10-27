@@ -39,3 +39,4 @@ function getInfo(a,b,...c){    //here we are only asking for the value of 'a' an
 console.log(getInfo(1,2,3,4,5))
 
 
+//es6 revision
