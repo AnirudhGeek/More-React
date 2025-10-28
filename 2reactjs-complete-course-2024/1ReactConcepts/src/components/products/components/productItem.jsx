@@ -9,4 +9,6 @@ function ProductItem(){
     </div>
 }
 
+//practicing basic hooks
+
 export default ProductItem
