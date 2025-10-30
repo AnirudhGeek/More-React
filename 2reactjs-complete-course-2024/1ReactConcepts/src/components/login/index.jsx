@@ -35,3 +35,6 @@ function LoginComponent() {
 }
 
 export default LoginComponent;
+
+
+//prac dynamic form handling
