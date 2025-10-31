@@ -42,3 +42,6 @@ function useFetch(url, options = {}) {
 // power cut in my area😭
 
 export default useFetch;
+
+
+//useFetch prac
