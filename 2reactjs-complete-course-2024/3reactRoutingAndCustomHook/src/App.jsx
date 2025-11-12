@@ -92,5 +92,6 @@ const App = () => {
 
 //more ts
 //more more ts ts ts
+//no ts
 
 export default App;
